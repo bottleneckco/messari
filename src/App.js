@@ -1,8 +1,12 @@
 import React from 'react';
+import Listing from './components/listing/listing';
+
+import './styles/main.scss';
 
 const App = () => (
   <div>
-    <h1>Messari</h1>
+    <Listing currency="Bitcoin" amount={1234.56} />
+    <Listing currency="Ethereum" amount={4321.12} />
   </div>
 );
 

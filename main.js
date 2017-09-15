@@ -4,7 +4,7 @@ let win;
 
 function createWindow() {
   // Initialize the window to specified dimensions
-  win = new BrowserWindow({ width: 400, height: 200 });
+  win = new BrowserWindow({ width: 400, height: 200, frame: false });
 
   // Specify entry point
   win.loadURL('http://localhost:8000');

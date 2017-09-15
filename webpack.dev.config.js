@@ -45,7 +45,11 @@ const config = {
           loader: 'style-loader'
           // creates style nodes from JS strings
         }, {
-          loader: 'css-loader'
+          loader: 'css-loader',
+          options: {
+            modules: true,
+            camelCase: true
+          }
           // translates CSS into CommonJS
         }, {
           loader: 'sass-loader'
