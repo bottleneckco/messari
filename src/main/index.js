@@ -1,13 +1,19 @@
-const { app, BrowserWindow } = require('electron');
+import { app, BrowserWindow } from 'electron';
 
 let win;
+
+const isDevelopment = process.env.NODE_ENV !== 'production';
+
+let url = isDevelopment
+  ? 'http://localhost:9080'
+  : `file://${__dirname}/index.html`;
 
 function createWindow() {
   // Initialize the window to specified dimensions
   win = new BrowserWindow({ width: 400, height: 200, frame: false });
 
   // Specify entry point
-  win.loadURL('http://localhost:8000');
+  win.loadURL(url);
 
   // Show dev tools
   win.webContents.openDevTools();

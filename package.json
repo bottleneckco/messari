@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.dev.config.js",
-    "electron": "electron ."
+    "electron": "electron .",
+    "dev": "electron-webpack dev"
   },
   "repository": "git@github.com:bottleneckco/messari.git",
   "author": "Chester How <chesterhow@gmail.com>",
@@ -19,6 +20,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-hot-loader": "next",
+    "source-map-support": "^0.4.18",
     "webpack": "^3.5.6"
   },
   "devDependencies": {
@@ -31,6 +33,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.7",
     "electron": "^1.7.6",
+    "electron-webpack": "^1.5.0",
     "eslint": "^4.6.1",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-import": "^2.7.0",
