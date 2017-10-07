@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.dev.config.js",
     "electron": "electron .",
-    "dev": "electron-webpack dev"
+    "dev": "electron-webpack dev",
+    "test": "echo Hi"
   },
   "repository": "git@github.com:bottleneckco/messari.git",
   "author": "Chester How <chesterhow@gmail.com>",
