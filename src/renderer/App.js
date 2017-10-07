@@ -5,8 +5,8 @@ import './styles/main.scss';
 
 const App = () => (
   <div>
-    <Listing currency="Bitcoin" amount={1234.56} />
-    <Listing currency="Ethereum" amount={4321.12} />
+    <Listing currency="Bitcoin" amount={1234.56} currencyCode="BTC" />
+    <Listing currency="Ethereum" amount={4321.12} currencyCode="ETH" />
   </div>
 );
 

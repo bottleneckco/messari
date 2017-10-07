@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .listing {
   display: grid;
   grid-template: 'currency amount value' / 1fr 1fr 1fr;
@@ -19,12 +21,15 @@
 
 .currency {
   grid-area: 'currency';
+  font-weight: 500;
 }
 
 .amount {
   grid-area: 'amount';
+  color: $secondaryText;
 }
 
 .value {
   grid-area: 'value';
+  text-align: right;
 }
