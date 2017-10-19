@@ -1649,6 +1649,10 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
+coinmarketcap@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/coinmarketcap/-/coinmarketcap-0.2.0.tgz#4463108f1ec99e349b2f26433a6d335da8ecf99a"
+
 color-convert@^1.3.0, color-convert@^1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.0.tgz#1accf97dd739b983bf994d56fec8f95853641b7a"
