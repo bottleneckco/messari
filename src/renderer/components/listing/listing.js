@@ -22,7 +22,7 @@ class Listing extends Component {
 
   calcValue() {
     // do calculations
-    return this.state.amount;
+    return this.state.amount * this.props.exchangeRate;
   }
 
   render() {
@@ -51,7 +51,8 @@ class Listing extends Component {
 Listing.propTypes = {
   currency: PropTypes.string.isRequired,
   amount: PropTypes.number.isRequired,
-  currencyCode: PropTypes.string.isRequired
+  currencyCode: PropTypes.string.isRequired,
+  exchangeRate: PropTypes.number.isRequired
 };
 
 export default Listing;
