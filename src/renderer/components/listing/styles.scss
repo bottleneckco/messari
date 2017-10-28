@@ -27,6 +27,23 @@
 .amount {
   grid-area: 'amount';
   color: $secondaryText;
+
+  input[type=number] {
+    font-size: 1em;
+    width: 50%;
+    background:transparent;
+    border: none;
+
+    &::-webkit-inner-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+    }
+
+    &:focus {
+      border: initial;
+      background: white;
+    }
+  }
 }
 
 .value {

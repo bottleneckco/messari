@@ -15,6 +15,7 @@
   "dependencies": {
     "autoprefixer": "^7.1.4",
     "clean-webpack-plugin": "^0.1.16",
+    "coinmarketcap": "^0.2.0",
     "electron": "^1.7.8",
     "extract-text-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^2.30.1",
